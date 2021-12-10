@@ -2,9 +2,11 @@
 @import "reset.css";
 @import "variable.css";
 @import "status.css";
-@import "login.css";
+@import "login.css"; 
+@import "friends.css";
 
 body{
+    color: #232323;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
 }
