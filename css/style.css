@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
-@import "reset.css";
-@import "variable.css";
-@import "status.css";
-@import "login.css"; 
-@import "friends.css";
+
+/*setting*/
+@import "setting/reset.css";
+@import "setting/variable.css";
+
+/*common_components*/
+@import "common/status.css";
+@import "common/nav-bar.css";
+
+/*pages*/
+@import "pages/login.css"; 
+@import "pages/friends.css";
 
 body{
     color: #232323;

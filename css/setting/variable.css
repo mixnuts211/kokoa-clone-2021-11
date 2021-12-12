@@ -1,6 +1,9 @@
 :root {
     --main-color:rgb(245, 184, 28);
   }
-  :root {
+:root {
     --hi-light-color:rgb(255, 137, 10);
+  }
+:root {
+    --main-dark-color:rgb(48, 48, 48);
   }
