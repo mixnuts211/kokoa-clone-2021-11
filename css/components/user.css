@@ -1,0 +1,6 @@
+.user-components{
+    display: flex;
+}
+.user-components__column:first-child{
+    display: flex;
+}

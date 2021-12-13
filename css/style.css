@@ -5,8 +5,10 @@
 @import "setting/variable.css";
 
 /*common_components*/
-@import "common/status.css";
-@import "common/nav-bar.css";
+@import "components/status.css";
+@import "components/nav-bar.css";
+@import "components/header.css";
+@import "components/user.css";
 
 /*pages*/
 @import "pages/login.css"; 

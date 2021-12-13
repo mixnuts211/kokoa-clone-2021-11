@@ -1,0 +1,9 @@
+#FriendNamesDisplay{
+    display: block;
+    text-align: center;
+    background-color: #f9f9fa;
+    padding:13px;
+}
+#FriendNamesDisplay i{
+    color:rgba(0, 0, 0, 0.3);
+}
