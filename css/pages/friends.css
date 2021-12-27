@@ -7,3 +7,17 @@
 #FriendNamesDisplay i{
     color:rgba(0, 0, 0, 0.3);
 }
+main{
+    padding:0 var(--horizontal-space);
+}
+.page-friend__channel-bar{
+    border-top: 1px solid rgba( 0,0,0,0.2);
+    margin-top:25px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    color:rgba( 0,0,0,0.5);
+}
+.page-friend__channel-bar span{
+    font-size:13px;
+}
