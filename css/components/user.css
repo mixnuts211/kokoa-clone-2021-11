@@ -20,7 +20,13 @@
 }
 .user-components__text{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-components__text h6{
+    color:rgba(0,0,0,0.5);
+    font-size: 13px;
+    margin-top: 10px;
 }
 .user-components__title{
     font-weight: 700;
@@ -34,4 +40,9 @@
 .user-components__title-not-bold{
     font-weight: 400;
     font-size: 15px;
+}
+.user-components__pic_mid{
+    width:70px;
+    height: 70px;
+    border-radius: 25px;
 }
