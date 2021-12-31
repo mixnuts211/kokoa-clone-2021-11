@@ -2,5 +2,6 @@
     --main-color:rgb(245, 184, 28);
     --hi-light-color:rgb(255, 137, 10);
     --main-dark-color:rgb(48, 48, 48);
+    --main-gray-color:rgba(0, 0, 0,0.5);
     --horizontal-space:20px;
   }

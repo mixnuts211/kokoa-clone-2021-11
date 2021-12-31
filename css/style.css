@@ -8,14 +8,16 @@
 @import "components/status.css";
 @import "components/nav-bar.css";
 @import "components/header.css";
+@import "components/subtitlebar.css";
 @import "components/user.css";
 
 /*pages*/
 @import "pages/login.css"; 
 @import "pages/friends.css";
+@import "pages/find.css";
 
 body{
-    color: #232323;
+    color: var(--main-dark-color);
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
 }
