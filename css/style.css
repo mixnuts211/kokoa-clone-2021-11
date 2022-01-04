@@ -10,11 +10,15 @@
 @import "components/header.css";
 @import "components/subtitlebar.css";
 @import "components/user.css";
+@import "components/icon-menu.css";
+@import "components/alt-header.css";
 
 /*pages*/
 @import "pages/login.css"; 
 @import "pages/friends.css";
 @import "pages/find.css";
+@import "pages/more.css";
+@import "pages/setting.css";
 
 body{
     color: var(--main-dark-color);

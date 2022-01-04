@@ -1,0 +1,19 @@
+.icon_menu{
+    display: flex;
+    justify-content: space-around;
+}
+.icon_menu__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.icon_menu__icon i{
+    font-size: 30px;
+}
+.icon_menu__icon span{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
