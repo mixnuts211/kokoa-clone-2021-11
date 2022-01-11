@@ -19,6 +19,7 @@
 @import "pages/find.css";
 @import "pages/more.css";
 @import "pages/setting.css";
+@import "pages/chat.css";
 
 body{
     color: var(--main-dark-color);

@@ -1,0 +1,116 @@
+#chat_bg{
+    background-color: lightblue;
+    height: 200vh;
+}
+.status-bar__chat_page{
+    background-color: lightblue;
+}
+.chat-header{
+    position:fixed;
+    z-index: 99;
+    width:100vw;
+    height: 60px;
+    top:0;
+    background-color:lightblue;
+}
+.fa-bars{
+    margin-left: 25px;
+}
+.chat_date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.chat_date span{
+    margin-top:20px;
+    border-radius: 20px;
+    background-color: var(--main-gray-color);
+    padding: 10px;
+    color:white;
+    font-size: 13px;
+}
+.chat_reply{
+    display: flex;
+    margin-top: 30px;
+}
+.chat_reply__img{
+    width:45px;
+    height: 45px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.chat_reply_message__name{
+    font-size: 13px;
+    color:var(--main-gray-color);
+}
+.chat_reply_message__buble{
+    display: flex;
+    margin-top: 10px;
+}
+.chat_reply_message_buble__talk{
+    background-color: white;
+    padding: 10px;
+    border-radius: 13px;
+    border-top-left-radius: 0px;
+}
+.chat_reply_message_buble__time{
+    font-size: 10px;
+    color:var(--main-gray-color);
+    margin-left: 5px;
+    margin-top: 28px;
+}
+.chat_reply__my{
+    justify-content: flex-end;
+}
+.chat_reply__my .chat_reply_message_buble__time{
+    order:-1;
+    margin-right: 10px;
+}
+.chat_reply__my .chat_reply_message_buble__talk{
+    background-color:var(--main-color);
+    border-top-left-radius: 13px;
+    border-top-right-radius: 0px;
+}
+
+.send_message{
+    position: fixed;
+    bottom:0;
+    left:0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+.fa-plus-square, .send_message__input .fa-smile-wink{
+    color:var(--main-gray-color);
+}
+.send_message__input{
+    position:relative;
+    width:90%;
+    border:1px solid gray;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding: 8px;
+}
+.send_message__input input{
+    border-style: none;
+}
+.send_message__btn{
+    position:absolute;
+    right: 3px;
+    top:3px;
+    width:30px;
+    height: 30px;
+    border-style: none;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+.send_message__input .fa-smile-wink{
+    position: absolute;
+    right:45px;
+    top:10px;
+}
